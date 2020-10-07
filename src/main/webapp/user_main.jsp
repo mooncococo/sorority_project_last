@@ -13,7 +13,7 @@
 		padding-left: 5vw;
 		height: 60vh;
 	}
-	
+	/*안녕하세요 선우에요  */
 	.carousel-item img{ 
 		height: 60vh;
 		width:100%;
