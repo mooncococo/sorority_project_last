@@ -12,6 +12,7 @@
 		padding-right: 5vw;
 		padding-left: 5vw;
 		height: 60vh;
+		/* 빅보스 여기는 중앙 */
 	}
 	
 	.carousel-item img{ 
