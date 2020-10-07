@@ -13,7 +13,7 @@
 		padding-left: 5vw;
 		height: 60vh;
 	}
-	/* 나는 김기현이다!!! */
+	/* 집오니까 왜 안ㄷㅐ! */
 	.carousel-item img{ 
 		height: 60vh;
 		width:100%;
