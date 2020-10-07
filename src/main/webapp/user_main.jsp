@@ -13,6 +13,7 @@
 		padding-left: 5vw;
 		height: 60vh;
 	}
+		/* 왜 안될까요 */
 	
 	.carousel-item img{ 
 		height: 60vh;
