@@ -23,6 +23,7 @@
 		font-weight: bold;
 		font-size: 2em;
 		background-color: #efe4d2;
+		/* 난 이설아  */
 	} 
 	
 	.nav-color{
