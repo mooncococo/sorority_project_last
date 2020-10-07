@@ -9,8 +9,8 @@
 	/* main 슬라이드 css */
 	#carouselExampleFade{
 		margin-top: 50px;
-		padding-right: 5vw;
-		padding-left: 5vw;
+	/* 	padding-right: 5vw;
+		padding-left: 5vw; */
 		height: 60vh;
 	}
 	/* 집오니까 왜 안ㄷㅐ! */
@@ -25,7 +25,7 @@
 		margin-top: 50px;
 		padding-right: 5vw;
 		padding-left: 5vw;
- 		width:102%;    
+ 		width:100%;    
 	}
 	
 	.card img{ 
