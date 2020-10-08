@@ -9,8 +9,8 @@
 	/* main 슬라이드 css */
 	#carouselExampleFade{
 		margin-top: 50px;
-	/* 	padding-right: 5vw;
-		padding-left: 5vw; */
+		padding-right: 10vw;
+		padding-left: 10vw; 
 		height: 60vh;
 	}
 	
@@ -23,13 +23,14 @@
 	
 	.card-deck{
 		margin-top: 50px;
-		padding-right: 5vw;
-		padding-left: 5vw;
- 		width:100%;    
+		padding-right: 10vw;
+		padding-left: 10vw;
+ 		  
+ 		  
 	}
 	
 	.card img{ 
-		height: 65vh;
+		height: 40vh;
 		transform: scale(1);
 		-webkit-transform: scale(1);
 		-moz-transform: scale(1);
@@ -53,13 +54,13 @@
 <div id="carouselExampleFade" class="c slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491_960_720.jpg" class="d-block w-12" alt="...">
+      <img src="http://app-storage-edge-005.cafe24.com/bannermanage2/sisshop/2020/10/07/d6c7f195631ae8da9bec439e29fc3a88.jpg" class="d-block w-12" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2015/08/29/01/18/closet-912694_960_720.jpg" class="d-block w-12" alt="...">
+      <img src="http://app-storage-edge-005.cafe24.com/bannermanage2/sisshop/2020/10/07/646fbcf015ae1f89422c4099733b790a.jpg" class="d-block w-12" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2015/01/20/14/28/fashion-605508_960_720.jpg" class="d-block w-12" alt="...">
+      <img src="http://app-storage-edge-005.cafe24.com/bannermanage2/sisshop/2020/10/07/02cc898af0b2d92c2ab61dc8d1369244.jpg" class="d-block w-12" alt="...">
     </div>
   </div>
 </div>
@@ -67,21 +68,28 @@
   <!-- 상품이미지 정보    차후에 div class="card" 영역하나로 데이터 베이스 접근하여 반복문으로 출력해야함 -->
   <div class="card-deck">
   <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2017/08/01/12/31/people-2564989_960_720.jpg" class="card-img-top" alt="...">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/2707c09502d1396bfef92aa74a55dd2c.webp" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">sorority</p>
     </div>
   </div>
   <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2018/01/15/07/52/portrait-3083402_960_720.jpg" class="card-img-top" alt="...">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/2c6ab5e993e65291148703fb36443893.webp" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">sorority</p>
     </div>
   </div>
   <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2016/11/29/08/34/beautiful-1868459_960_720.jpg" class="card-img-top" alt="...">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/56c9cb1bbc66d1e89b8a12238d98f621.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">sorority</p> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/eebed87d00dcc054070ce7d7319d9914.webp" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">sorority</p> 
@@ -89,29 +97,37 @@
   </div>
 </div>
 
-<div class="card-deck">
+ <div class="card-deck">
   <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2015/04/10/17/09/woman-716592_960_720.jpg" class="card-img-top" alt="...">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/2707c09502d1396bfef92aa74a55dd2c.webp" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">sorority</p>
     </div>
   </div>
   <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2018/01/22/07/31/portrait-3098319_960_720.jpg" class="card-img-top" alt="...">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/2c6ab5e993e65291148703fb36443893.webp" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">sorority</p>
     </div>
   </div>
   <div class="card">
-    <img src="https://cdn.pixabay.com/photo/2019/05/12/12/15/girl-4197876_960_720.jpg" class="card-img-top" alt="...">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/56c9cb1bbc66d1e89b8a12238d98f621.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">sorority</p> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="http://merryaround.co.kr/web/product/medium/202010/eebed87d00dcc054070ce7d7319d9914.webp" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">sorority</p> 
     </div>
   </div>
 </div>
+
 
 </body> 
 </html>
