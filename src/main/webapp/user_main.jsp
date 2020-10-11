@@ -14,6 +14,7 @@
 		height: 60vh;
 		/* kk2 */
 	}
+		/* 왜 안될까요 */
 	
 	.carousel-item img{ 
 		height: 60vh;
