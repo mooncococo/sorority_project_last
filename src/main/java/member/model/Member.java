@@ -1,5 +1,5 @@
 package member.model;
 
-public class MemberBean {
+public class Member {
 
 }
