@@ -1,4 +1,3 @@
-  
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -13,8 +12,9 @@
 		padding-right: 10vw;
 		padding-left: 10vw; 
 		height: 60vh;
+		/* kk2 */
 	}
-	
+
 	.carousel-item img{ 
 		height: 60vh;
 		width:100%;

@@ -1,0 +1,68 @@
+
+drop sequence mseq;
+
+create sequence mseq start with 1 increment by 1 nocache;
+
+drop table member;
+
+create table member(
+	mnum number primary key,
+	mid varchar2(30) not null,
+	mpw varchar2(30) not null,
+	mname varchar2(30) not null,
+	addr1 varchar2(30) not null,
+	addr2 varchar2(30) not null,
+	hp1 varchar2(30) not null,
+	hp2 varchar2(30) not null,
+	hp3 varchar2(30) not null,
+	email1 varchar2(30) not null,
+	email2 varchar2(30) not null,
+	birth1 varchar2(30) not null,
+	birth2 varchar2(30) not null,
+	birth3 varchar2(30) not null,
+	mpoint varchar2(30) not null,
+	coupon varchar2(30) default 1,
+	regdate date default sysdate
+);
+
+
+--移댄뀒怨좊━
+drop squence cateseq;
+
+create sequence cateseq start with 1 increment by 1 nocache;
+
+drop table category;
+
+create table category(
+	cnum number primary key,
+	code varchar2(30) not null, --  硫붾돱諛붿뿉 �엳�뒗 硫붾돱紐� select�씠�슜 outer
+	cname varchar2(30) not null -- �뱶�엻�떎�슫 硫붾돱 jacket
+);
+
+
+
+
+
+
+-- �긽�뭹 
+drop sequence pseq;
+
+create sequence pseq start with 1 increment by 1 nocache ;
+
+drop table products;
+
+create table products(
+	pnum number primary key,
+	pname varchar2(30) not null, 
+	pcategory_fk varchar2(20) not null,
+	pcompany varchar2(30),
+	pimage varchar2(100),
+	pstock number default 0,
+	pcolor varchar2(30) not null,
+	price
+
+);
+
+
+
+
