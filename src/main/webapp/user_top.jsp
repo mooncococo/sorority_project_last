@@ -22,15 +22,16 @@
 		padding-top: 1vh;
 		font-weight: bold;
 		font-size: 2em;
-		background-color: #efe4d2;
+	/* 	background-color: #efe4d2; */
 	} 
 	
 	.nav-color{
-		background: #fff3e0;
+		/* background: #fff3e0; */
 	}
 	 
 	.nav-item{
 		font-weight: bold;
+		margin-left: 40px;
 	}
 </style>
 </head>
@@ -41,31 +42,41 @@
 	</div>  
 	
 	
-<nav class="navbar navbar-expand navbar-light nav-color">
+<nav class="navbar navbar-expand navbar-light nav-color" style="padding-right: 10vw;
+		padding-left: 10vw; ">
   <a class="navbar-brand" href="#">Sorority</a>
  
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto"> 
       <li class="nav-item active">
-        <a class="nav-link" href="#">Popularities <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Best <span class="sr-only">(current)</span></a><!-- 랭킹도 같이 -->
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Brand new</a>
+        <a class="nav-link" href="#">Outer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">On sale</a>
+        <a class="nav-link" href="#">Top</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">shirts</a>
+        <a class="nav-link" href="#">Blouse</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">pants</a>
+        <a class="nav-link" href="#">Bottom</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">shoes</a>
+        <a class="nav-link" href="#">Dress</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">review</a>
+        <a class="nav-link" href="#">Skirt</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Shoes</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Bag</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Acc</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
